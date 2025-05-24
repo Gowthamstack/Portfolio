@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "outfit", sans-serif;
+  font-weight: 600;
+  scroll-behavior: smooth;
+  background: #043b92;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

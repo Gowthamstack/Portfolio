@@ -1,0 +1,56 @@
+.skill {
+  display: grid;
+  grid-template-columns: repeat(5, 210px);
+  grid-template-rows: no-repeat(2, 210px);
+  gap: 10px;
+}
+.skill .language {
+  display: flex;
+  flex-direction: column;
+}
+.skill img {
+  width: 80px;
+  height: 80px;
+}
+.skill .language {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #fff;
+  border-radius: 5px 0px 5px 0px;
+}
+@media (max-width: 768px) {
+  .skill {
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: no-repeat(4, 100px);
+  }
+  .skill img {
+    width: 50px;
+    height: 50px;
+  }
+  .skill .language {
+    width: 130px;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 375px) {
+  .skill {
+    grid-template-columns: repeat(2, 135px);
+    grid-template-rows: no-repeat(5, 135px);
+    gap: 20px;
+  }
+  .skill img {
+    width: 50px;
+    height: 50px;
+  }
+  .skill .language {
+    width: 130px;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+  }
+}
