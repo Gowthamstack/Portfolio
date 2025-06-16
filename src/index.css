@@ -1,0 +1,8 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
+
+*{
+  background-color: #fef6da;
+  color:#4a4a4a;
+  font-family: sans-serif;
+}
