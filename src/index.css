@@ -2,7 +2,11 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
 
 *{
-  background-color: #fef6da;
-  color:#4a4a4a;
+  background: #0f172a;
+  color:#f8fafc;
+  font-weight: bold;
   font-family: sans-serif;
+}
+img{
+  border-radius: 5px;
 }

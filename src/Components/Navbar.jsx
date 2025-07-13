@@ -10,17 +10,13 @@ const Navbar = () => {
 
     
     return (
-            <nav className={`fixed top-0 left-0 bg-[#4a4a4a] w-full flex items-center justify-between px-4 md:px-16 lg:px-24 xl:px-32 transition-all duration-500 z-50 ${isScrolled ? "bg-white/80 shadow-md text-gray-700 backdrop-blur-lg py-3 md:py-4" : "py-4 md:py-6"}`}>
+            <nav className={`fixed top-0 left-0 w-full flex items-center justify-between px-4 md:px-16 lg:px-24 xl:px-32 transition-all duration-500 z-50 ${isScrolled ? "bg-white/80 shadow-md text-gray-700 backdrop-blur-lg py-3 md:py-4" : "py-4 md:py-6"}`}>
 
                <h1 className="text-2xl font-medium md:text-3xl lg:text-4xl">My Portfolio</h1>
 
                 {/* Desktop Nav */}
                 <div className="hidden md:flex items-center gap-4 lg:gap-8">
-                    <NavLink to="/"  className={({ isActive }) => isActive ? "text-blue-500 font-semibold" : ""}>Home</NavLink>
-                    <NavLink to="/About"  className={({ isActive }) => isActive ? "text-blue-500 font-semibold" : ""}>About</NavLink>
-                    <NavLink to="/Projects"  className={({ isActive }) => isActive ? "text-blue-500 font-semibold" : ""}>Projects</NavLink>
-                    <NavLink to="/Skills"  className={({ isActive }) => isActive ? "text-blue-500 font-semibold" : ""}>Skills</NavLink>
-                </div>
+                    </div>
 
                 {/* Desktop Right */}
                 <div className="hidden md:flex items-center gap-4">
