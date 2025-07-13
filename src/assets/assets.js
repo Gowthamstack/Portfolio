@@ -7,7 +7,7 @@ import database from "../assets/database.png";
 import express from "../assets/Express.png";
 import git from "../assets/git.png";
 import graphql from "../assets/graphql.jpg";
-import idle from "../assets/idle.jpg";
+import idle from "../assets/Idle.jpg";
 import java from "../assets/java.jpg";
 import js from "../assets/js.png";
 import mysql from "../assets/mysql.jpg";
