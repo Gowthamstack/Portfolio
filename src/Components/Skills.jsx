@@ -1,53 +1,17 @@
 import React from 'react'
-import { assets } from '../assets/assets'
 
 const Skills = () => {
   return (
-    <div className="w-full px-30 pt-30 mx-auto h-[80vh] flex gap-10 flex-col">
-      <div className="flex flex-col gap-5">
-        <h1 className='text-1.5xl md:text-2xl lg:text-3xl xl:text-4xl'>Programming Language.....</h1>
-        <div className="grid grid-cols-3 gap-5  lg:grid-cols-4 place-items-center">
-          <img className='w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.c} alt="C" />
-          <img className='w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.cpp} alt="C++" />
-          <img className='w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.java} alt="Java" />
-          <img className='w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.python} alt="Python" />
-          <img className='w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.js} alt="JavaScript" />
-        </div>
-      </div>
-      <div className="flex flex-col gap-5">
-          <h1 className='text-sm md:text-2xl lg:text-3xl xl:text-4xl'>Front-End....</h1>
-        <div className="grid grid-cols-3 gap-5  lg:grid-cols-4 place-items-center">
-          <img className='sm:w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.html} alt="HTML" />
-          <img className='sm:w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.css} alt="CSS" />
-          <img className='sm:w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.react} alt="React" />
-          <img className='sm:w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.tailwindcss} alt="Tailwind" />
-        </div>
-      </div>
-      <div className="flex flex-col gap-5">
-        <h1 className='text-sm md:text-2xl lg:text-3xl xl:text-4xl'>Back-End......</h1>
-        <div className="grid grid-cols-3 gap-5  lg:grid-cols-4 place-items-center">
-          <img className='sm:w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.nodejs} alt="NodeJs" />
-          <img className='sm:w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]'src={assets.express} alt="ExpressJs" />
-          <img className='sm:w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]'src={assets.c} alt="Hono" />
-      </div>
-      <div className="flex flex-col gap-5">
-        <h1 className='text-sm md:text-2xl lg:text-3xl xl:text-4xl'>DataBase....</h1>
-        <div className="grid grid-cols-3 gap-5 lg:grid-cols-4 place-items-center">
-          <img className='sm:w-[100px] sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.mysql} alt="MySQl" />
-          <img className='sm:w-[100px] sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.mysql} alt="Mongodb" />
-          <img className='sm:w-[100px] sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.cassandra} alt="Casandra" />
-          <img className='sm:w-[100px] sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.graphql} alt="GraphQl" />
-        </div>
-      </div>
-       <div className="flex flex-col gap-5">
-        <h1 className='text-sm md:text-2xl lg:text-3xl xl:text-4xl'>Tools....</h1>
-        <div className="grid grid-cols-3 gap-5  lg:grid-cols-4 place-items-center">
-          <img className='sm:w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.vscode} alt="VSCode" />
-          <img className='sm:w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.postman} alt="PostMan" />
-          <img className='sm:w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.eclipse} alt="Eclipse" />
-          <img className='sm:w-[100px] object-cover sm:h-[100px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]' src={assets.idle} alt="IDLE" />
-        </div>
-      </div>
+    <div className='flex flex-col  gap-2 items-center justify-center h-[80vh]'>
+      <h1>SKILLS</h1>
+      <div className='w-[400px] border-2 flex flex-col gap-3 rounded-2xl px-5 py-5'>
+        <div>PROGRAMMING LANGUAGE:JAVA,PYTHON,C,C++,</div>
+        <div>FRONTEND: HTML, CSS, JAVASCRIPT, REACT JS, TAILWIND CSS</div>
+        <div>BACKEND: NODE JS(EXPRESS JS)</div>
+        <div>DATABASE: MYSQL, MONGO_DB,POSTGRESS,CASSANDRA</div>
+
+        <div>MACHINE LEARNING: NUMPY, PANDAS , MATPLOTLIB, SCIKIT_LEARN</div>
+        <div>TOOLS: GIT ,GITHUB , JUPYTER NODEBOOK, INTELLIJA ,ECLIPSE ,VISUAL STUDIO CODE</div>
       </div>
     </div>
   )

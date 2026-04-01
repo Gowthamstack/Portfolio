@@ -1,16 +1,14 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Home = () => {
-  const [showMe,setShowMe]=useState(false);
   return (
-    <div className='px-4 py-6 h-[80vh] transition-all flex bg-white flex-col items-center justify-center relative'>
-      {!showMe && <button onClick={()=>setShowMe(!showMe)} className='text-2xl  bg-white  cursor-pointer px-4 w-fit rounded-2xl  animate-bounce'>Say Hi !!!!</button>}
-      {showMe && 
-      <div className='sm:h-fit w-[300px] md:w-[400px] flex transition transform duration-700 ease-out translate-y-0 motion-safe:animate-none  items-center bg-white h-fit flex-col gap-10 border px-4 py-6  font-medium '>
-          <h1 className='text-3xl '>Hi I'm Gowtham </h1>
-          <p className='capitalize text-center '>I'm Computer Science student passionate about solving real-world problems through software . i enjoy working with java,python,docker,kubernets and full stack development</p>
-      </div>
-      }
+    <div className='flex flex-col items-center h-[80vh] justify-center text-center capitalize'>
+        <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold'>Hi I'm Gowtham</h1>
+        <p>I'm Going to be the best software enginner in the world.</p>
+        <p>And passionate about problem solving and creating thinking.</p>
+        <p>Always learing new things and new different to solve porblem.</p>
+        <NavLink to='/skills' className='text-white border-2 rounded-2xl mt-8 bg-white text-black text-2xl px-3.5 py-3'>Skills </NavLink>
     </div>
   )
 }

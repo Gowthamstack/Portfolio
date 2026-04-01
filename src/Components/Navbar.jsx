@@ -11,9 +11,9 @@ const Navbar = () => {
 
     
     return (
-            <nav className='flex items-center justify-center mx-auto px-4 py-4'>
-               <h1 className="text-2xl font-medium md:text-3xl lg:text-4xl">My Portfolio</h1>
-            </nav>
+           <div className="flex align-center justify-center mt-10 font-bold text-3xl">
+              <h1>My PortFolio</h1>
+           </div>
     );
 }
 
