@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div className='flex flex-col  gap-2 items-center justify-center h-[80vh]'>
       <h1>SKILLS</h1>
-      <div className='w-[400px] border-2 flex flex-col gap-3 rounded-2xl px-5 py-5'>
+      <div className='border-0 w-[400px] md:border-2 flex flex-col gap-3 rounded-2xl px-5 py-5'>
         <div>PROGRAMMING LANGUAGE:JAVA,PYTHON,C,C++,</div>
         <div>FRONTEND: HTML, CSS, JAVASCRIPT, REACT JS, TAILWIND CSS</div>
         <div>BACKEND: NODE JS(EXPRESS JS)</div>

@@ -7,7 +7,7 @@ const Home = () => {
         <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold'>Hi I'm Gowtham</h1>
         <p>I'm Going to be the best software enginner in the world.</p>
         <p>And passionate about problem solving and creating thinking.</p>
-        <p>Always learing new things and new different to solve porblem.</p>
+        <p>Always learing new things and different ways to solve problems.</p>
         <NavLink to='/skills' className='text-white border-2 rounded-2xl mt-8 bg-white text-black text-2xl px-3.5 py-3'>Skills </NavLink>
     </div>
   )
