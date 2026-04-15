@@ -1,12 +1,21 @@
-import React from 'react'
-
-const Projects = () => {
+function Projects() {
   return (
-     <div className="mt-16 mx-auto  flex flex-col items-center justify-center">
-      <h1 className="text-3xl font-bold">Welcome to Projects</h1>
-      <p className="mt-4 text-lg">This is the Projects.</p>
+    <section id="projects" className="p-10">
+      <h2 className="text-3xl font-bold mb-6">Projects</h2>
+
+      <div className="grid md:grid-cols-2 gap-6">
+        <div className="bg-gray-800 p-5 rounded-xl">
+          <h3 className="text-xl font-bold">GreenCart</h3>
+          <p>MERN e-commerce app with Stripe payments</p>
+        </div>
+
+        <div className="bg-gray-800 p-5 rounded-xl">
+          <h3 className="text-xl font-bold">Notes App</h3>
+          <p>Express + MySQL based note-taking app</p>
+        </div>
       </div>
-  )
+    </section>
+  );
 }
 
-export default Projects
+export default Projects;
