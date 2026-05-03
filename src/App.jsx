@@ -3,16 +3,16 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Hero from "./Components/Hero";
+import Particles from "./Components/Particles";
 
 function App() {
   return (
-    <div className="bg-black flex items-center flex-col text-white">
+  <div>
       <Navbar />
-      <Hero/>
+      <Hero />
       <About />
       <Projects />
-      <Contact />
-    </div>
+  </div>
   );
 }
 

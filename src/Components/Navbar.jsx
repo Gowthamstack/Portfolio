@@ -1,9 +1,11 @@
-function Navbar() {
+import React from 'react'
+
+const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between p-5 bg-gray-900">
-      <h1 className="text-xl font-bold">My Portfolio</h1>
-    </nav>
-  );
+    <div className='flex items-center justify-center mt-5'>
+      <h1 className='text-2xl lg:text-3xl capitalize font-bold '>portfolio</h1>
+    </div>
+  )
 }
 
-export default Navbar;
+export default Navbar
