@@ -16,14 +16,14 @@ const About = () => {
           Hey there! 👋
         </h1>
 
-        <p className="text-gray-300 leading-8">
+        <p className="text-gray-300 font-bold leading-8">
           I'm currently a student at Priyadarshini Engineering College,
           building my skills and exploring new opportunities in technology.
           I’m passionate about learning and continuously improving myself
           through hands-on projects, new challenges, and practical experience.
         </p>
 
-        <p className="text-gray-300 leading-8">
+        <p className="text-gray-300 font-bold leading-8">
           Right now, I'm interested in exploring AI, coding, design, and
           DevOps. I enjoy understanding how technology works, creating
           solutions, and learning how different systems come together to build
@@ -34,13 +34,13 @@ const About = () => {
 
       {/* Right Card */}
       <div className="z-10 mt-10 md:mt-0 p-10 rounded-3xl 
-backdrop-blur-lg bg-transparent shadow-2xl">
+backdrop-blur-lg bg-gray-900 shadow-2xl">
 
         <div className="rounded-3xl p-8 flex flex-col items-center  hover:scale-105 transition-all duration-500 ">
 
           {/* Floating Image */}
           <img
-            className="w-48 h-48 rounded-full border-4 object-cover transition-all animate-bouce"
+            className="w-48 h-48 rounded-full border-4 object-cover transition-all duration-75 animate-bouce"
             src="/gowtham.jpeg"
             alt="Gowtham"
           />
