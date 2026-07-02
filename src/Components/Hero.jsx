@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <div className='relative group flex flex-col items-center justify-center m-auto'>
-      <img src={assets.mainbanner} alt="" className='w-full h-[85vh] object-cover blur-sm  transition-all duration-500 ease-in-out transform' style={{
+      <img src={assets.mainbanner} alt="" className='w-full h-[90vh] object-cover blur-sm  transition-all duration-500 ease-in-out transform' style={{
   maskImage: 'linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 70%)',
   WebkitMaskImage: 'linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 70%)'
 }}/>
