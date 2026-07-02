@@ -31,8 +31,8 @@ const Hero = () => {
   </h1>
   
   <div className="text-lg md:text-xl font-medium text-amber-950-300 mt-4 min-h-[30px] flex items-center gap-1.5 justify-center">
-        <span>Currently</span>
-        <span className="text-white font-semibold">
+        <span className='text-amber-600'>Currently</span>
+        <span className="text-[#ffb12f] font-semibold">
           <Typewriter
             options={{
               strings: [

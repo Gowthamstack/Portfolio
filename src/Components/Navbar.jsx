@@ -12,8 +12,8 @@ const Navbar = () => {
        </div>
        <div className='hidden md:flex md:gap-5'>
           <NavLink to='/'>Home</NavLink>
-          <NavLink to='/about'>About</NavLink>
           <NavLink to='/projects'>Projects</NavLink>
+          <NavLink to='/contact'>Contact</NavLink>
           <NavLink to='/reach-out'>React out</NavLink>
        </div>
 
@@ -32,7 +32,7 @@ const Navbar = () => {
     
     <NavLink 
       onClick={() => setMenuOpen(false)} 
-      to="/about" 
+      to="/contact" 
       className={({ isActive }) => `text-xl font-medium tracking-wide transition-colors duration-300 ${isActive ? 'text-indigo-400' : 'text-slate-200 hover:text-white'}`}
     >
       About
