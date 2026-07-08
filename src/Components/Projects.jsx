@@ -2,37 +2,15 @@ import { ExternalLink, Star, GitFork, Code2 } from "lucide-react";
 
 const projects = [
   {
-    title: "Algorithm-Path-Visualizer",
+    title: "GreenCart",
     description:
-      "Algorithm Path Visualizer is a React application designed to visualize various pathfinding algorithms in action.",
-    language: "JavaScript",
+      "GreenCart is a full-stack e-commerce grocery platform built with the MERN stack, designed to give users a smooth, modern online grocery shopping experience — from browsing products to secure checkout — with a dedicated dashboard for sellers to manage their listings and orders.",
+    language: "MERN",
     languageColor: "bg-yellow-400",
     stars: 7,
     forks: 0,
     tags: [],
-    github: "https://github.com/username/Algorithm-Path-Visualizer",
-  },
-  {
-    title: "Spotify-Hit-Predictor",
-    description:
-      "Spotify Genre Hit Predictor forecasts song popularity using genres and audio features.",
-    language: "Jupyter Notebook",
-    languageColor: "bg-purple-500",
-    stars: 6,
-    forks: 0,
-    tags: ["machine-learning", "machinelearning-python", "spotify-api"],
-    github: "https://github.com/username/Spotify-Hit-Predictor",
-  },
-  {
-    title: "GBA-Video-Game-Project",
-    description:
-      "Game Boy Advance graphical application with DMA, button input, and collision detection.",
-    language: "C",
-    languageColor: "bg-gray-400",
-    stars: 3,
-    forks: 0,
-    tags: [],
-    github: "https://github.com/username/GBA-Video-Game-Project",
+    github: "https://github.com/Gowthamstack/GreenCart/",
   },
 ];
 

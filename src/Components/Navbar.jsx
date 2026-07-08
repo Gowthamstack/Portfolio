@@ -13,7 +13,7 @@ const Navbar = () => {
        <div className='hidden md:flex md:gap-5'>
           <NavLink to='/'>Home</NavLink>
           <NavLink to='/projects'>Projects</NavLink>
-          <NavLink to='/contact'>Contact</NavLink>
+          <NavLink to='/TechStack'>Tech Stack</NavLink>
           <NavLink to='/reach-out'>React out</NavLink>
        </div>
 
@@ -30,13 +30,7 @@ const Navbar = () => {
       Home
     </NavLink>
     
-    <NavLink 
-      onClick={() => setMenuOpen(false)} 
-      to="/contact" 
-      className={({ isActive }) => `text-xl font-medium tracking-wide transition-colors duration-300 ${isActive ? 'text-indigo-400' : 'text-slate-200 hover:text-white'}`}
-    >
-      About
-    </NavLink>
+    
     
     <NavLink 
       onClick={() => setMenuOpen(false)} 
@@ -44,6 +38,14 @@ const Navbar = () => {
       className={({ isActive }) => `text-xl font-medium tracking-wide transition-colors duration-300 ${isActive ? 'text-indigo-400' : 'text-slate-200 hover:text-white'}`}
     >
       Projects
+    </NavLink>
+
+    <NavLink 
+      onClick={() => setMenuOpen(false)} 
+      to="/TechStack" 
+      className={({ isActive }) => `text-xl font-medium tracking-wide transition-colors duration-300 ${isActive ? 'text-indigo-400' : 'text-slate-200 hover:text-white'}`}
+    >
+      TechStack
     </NavLink>
     
     <NavLink 

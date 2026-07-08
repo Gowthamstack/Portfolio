@@ -6,6 +6,7 @@ import Hero from "./Components/Hero";
 import Particles from "./Components/Particles";
 import { Routes ,Route} from "react-router-dom";
 import Home from "./Components/Home";
+import TechStack from "./Components/TechStack";
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/projects' element={<Projects/>}/>
+        <Route path='/TechStack' element={<TechStack/>}/>
         <Route path='/react-out' element={<Contact/>}/>
       </Routes>
   </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="relative min-h-screen overflow-hidden flex flex-col md:flex-row items-center justify-around px-10 py-10 bg-gradient-to-r from-amber-900 via-orange-600 to-yellow-400 ">
+    <div className="relative min-h-screen overflow-hidden flex flex-col md:flex-row items-center justify-around px-10 py-10 bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 ">
 
       {/* Background Blur Effects */}
       <div className="absolute w-72 h-72 bg-purple-500/30 blur-[100px] rounded-full top-10 left-10 animate-pulse"></div>
