@@ -8,14 +8,19 @@ const Hero = () => {
       <img 
         src={assets.mainbanner} 
         alt="" 
-        className='w-full h-[90vh] object-cover blur-sm transition-all duration-500 ease-in-out transform'
+        className='w-full h-[90vh] hidden md:block object-cover blur transition-all duration-500 ease-in-out transform'
+      />
+      <img 
+        src={assets.mainbanner_sm} 
+        alt="" 
+        className='w-full h-[90vh] block md:hidden object-cover blur transition-all duration-500 ease-in-out transform'
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
 
         {/* Main Heading */}
         <h1 className="text-white text-5xl md:text-6xl font-extrabold tracking-tight">
           I'm{' '}
-          <span className="bg-gradient-to-r from-[#3B82F6] to-[#06B6D4] bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-[#3B82F6] to-[#0663d4] bg-clip-text text-transparent">
             Gowtham
           </span>
         </h1>

@@ -20,9 +20,10 @@ import vscode from "../assets/vscode.jpg";
 import eclipse from "../assets/eclipse.jpg";
 import mainbanner from '../assets/mainbanner.jpg';
 import menuicon from '../assets/menu_icon.png';
+import mainbanner_sm from "../assets/mainbanner_sm.png"
 
 
 export const assets={
     html,css,c,cpp,cassandra,database,express,git,graphql,idle,java,js,mysql,nodejs,postman,react,python,tailwindcss,vscode,eclipse
-    ,mainbanner,menuicon
+    ,mainbanner,menuicon,mainbanner_sm
 }

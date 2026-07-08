@@ -5,7 +5,7 @@ import { assets } from '../assets/assets'
 const Navbar = () => {
   const [menuOpen,setMenuOpen] = useState();
   return (
-    <nav className='p-4 flex items-center justify-between bg-blue-300'>
+    <nav className='p-4 flex items-center justify-between bg-blue-950 text-white'>
        <div className='flex items-end justify-center'>
           <img src="/G_logo.svg" className='min-w-10' alt="" />
           <h1 className='text-2xl md:text-3xl'>owtham</h1>
