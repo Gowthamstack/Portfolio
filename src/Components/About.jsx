@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="relative min-h-screen overflow-hidden flex flex-col md:flex-row items-center justify-around px-10 py-10 bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 ">
+    <div className="relative min-h-screen overflow-hidden flex flex-col md:flex-row items-center justify-around px-10 py-10 bg-blue-900">
 
       {/* Background Blur Effects */}
       <div className="absolute w-72 h-72 bg-purple-500/30 blur-[100px] rounded-full top-10 left-10 animate-pulse"></div>
@@ -33,8 +33,7 @@ const About = () => {
       </div>
 
       {/* Right Card */}
-      <div className="z-10 mt-10 md:mt-0 p-10 rounded-3xl 
-backdrop-blur-lg bg-gray-900 shadow-2xl">
+      <div className="z-10 mt-10 md:mt-0 p-10 rounded-3xl bg-glass-frosted text-slate-800 shadow-2xl bg-gradient-to-tr from-slate-950  bg-gray-900">
 
         <div className="rounded-3xl p-8 flex flex-col items-center  hover:scale-105 transition-all duration-500 ">
 
